@@ -2,14 +2,14 @@
 <p>Create a movie database app where users can add, edit, and delete movies.</p>
 
 <h5>Setup and run the project</h5>
-Prerequisites
-Python 
-Vagrant
-VirtualBox
+Prerequisites</br>
+Python</br>
+Vagrant</br>
+VirtualBox</br>
 <h5>How to Run</h5>
-Install VirtualBox and Vagrant
-Clone this repo(https://github.com/raza750/Catalog_Uadacity)
-Unzip and place the Item Catalog folder in your Vagrant directory
+Install VirtualBox and Vagrant</br>
+Clone this repo(https://github.com/raza750/Catalog_Uadacity)</br>
+Unzip and place the Item Catalog folder in your Vagrant directory</br>
 <h5>Launch Vagrant</h5>
 $ Vagrant up 
 Login to Vagrant
