@@ -1,30 +1,30 @@
-Item-Catalog
-Create a movie database app where users can add, edit, and delete movies.
+<h3>Item-Catalog</h3>
+<p>Create a movie database app where users can add, edit, and delete movies.</p>
 
-Setup and run the project
+<h5>Setup and run the project</h5>
 Prerequisites
 Python 
 Vagrant
 VirtualBox
-How to Run
+<h5>How to Run</h5>
 Install VirtualBox and Vagrant
 Clone this repo(https://github.com/raza750/Catalog_Uadacity)
 Unzip and place the Item Catalog folder in your Vagrant directory
-Launch Vagrant
+<h5>Launch Vagrant</h5>
 $ Vagrant up 
 Login to Vagrant
 $ Vagrant ssh
 Change directory to /vagrant
 $ Cd /vagrant
-Initialize the database
+<p>Initialize the database</p>
 $ Python database.py
-Populate the database with some initial data
+<p>Populate the database with some initial data</p>
 $ Python dummyData.py
-Launch application
+<p>Launch application</p>
 $ Python appone.py
 Open the browser and go to http://localhost:5000
-JSON endpoints
-Returns JSON of all Genre
+<h5>JSON endpoints</h5>
+<p>Returns JSON of all Genre</p>
 /genre/JSON
-Returns JSON of Movies based on Genre
+<p>Returns JSON of Movies based on Genre</p>
 /genre/<int:genre_id>/movie/JSON
