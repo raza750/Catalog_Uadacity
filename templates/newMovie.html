@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+</head>
+<body>
+
+<h1>New Movie</h1>
+<div class="pane">
+
+<div>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+
+<ul>
+{% for message in messages %}
+  <li><strong>{{message}}</strong></li>
+  {% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+</div>
+<form action="#" method = 'post'>
+
+
+	<p>Name:</p>
+		<input type ='text' size='30' name='name' >
+	
+	<p>Rating:</p>
+		<input type ='text' size='30' name='rating' >
+	
+	<p>Description:</p>
+		<input type ='text' size='30' name='description' >
+
+
+<input type='submit' value='Create'>
+
+</form>
+</div>
+
+</body>
+</html>
