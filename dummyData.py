@@ -1,5 +1,5 @@
-#!/usr/bin/env python3f
-rom sqlalchemy import create_engine
+#!/usr/bin/env python3
+from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from database import Genre, Base, Movie, User
